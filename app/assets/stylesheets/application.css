@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+ul {
+  list-style-type: none;
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.article-content {
+  margin-top: 20px;
+}
+
+.article-title {
+  margin-bottom: 3px;
+}
+
+.custom-icon {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.article-actions a {
+  text-decoration: none;
+}
+
+.article-content-edit {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}

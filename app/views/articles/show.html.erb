@@ -1,0 +1,11 @@
+<h2><%= @article.title %>
+  <span class="article-actions no-underline">
+    <%= link_to edit_article_path(@article) do %>
+      <i class="fas fa-solid fa-pencil custom-icon"></i>
+    <% end %>
+    <%= link_to @article, method: :delete, data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } do %>
+      <i class="fas fa-trash-alt custom-icon"></i>
+    <% end %>
+  </span>
+</h2>
+<p>content: <%= @article.content %></p>
